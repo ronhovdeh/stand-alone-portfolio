@@ -1,9 +1,27 @@
+@import 'normalize';
+@import 'lightgallery.min';
+@import 'lg-transitions.min';
+
+
+
+
+
 /********************
 YOUR STYLES
 *******************/
+body{
+  background:red;
+}
 
 
+figure {
+  background: #4ea59b;
+  width:20%;
+}
 
+figure figcaption {
+  font-family: italic;
+}
 
 /********************
 MEDIA QUERIES
